@@ -66,6 +66,9 @@ padding:0px;
     color: rgba(19, 18, 18, 0.5);
 }
 
+.nav-link{
+    padding: 5px;
+}
 .arrow i {
     border: solid #fff;
     margin-top: 12px;
@@ -91,6 +94,7 @@ padding:0px;
   .navbar-dark .navbar-nav .nav-link:hover {
     border: 1px solid #000;
     color:#000;
+    padding: 5px;
 }
 
 
