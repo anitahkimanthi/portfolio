@@ -1,50 +1,58 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
+
+    <title>Anita</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Bootstrap Design Template - Pink</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- <script src="assets/js/bootstrap.js"></script> -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/source/jquery.fancybox.js"></script>
+    <script src="assets/js/jquery.isotope.js"></script>
+    <script src="assets/js/scrollReveal.js"></script>
+    <script src="assets/js/custom.js"></script>
     <link href="assets/css/ionicons.css" rel="stylesheet" />
     <link href="assets/js/source/jquery.fancybox.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    
 </head>
-<body data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <div class="navbar navbar-default navbar-fixed-top scroll-me">
-        <!-- pass scroll-me class above a tags to starts scrolling -->
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                
-                <a class="navbar-brand" href="#">
-                    <!-- <b>Anita Kimanzi</b> -->
-                </a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#header">HOME</a></li>
-                     <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#portfolio">PORFOLIO</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark justify-content-end fixed-top">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 header">
+                <div class="row no-gutters">
+                <div class="col-6 col-sm-6 col-md-6">
+                <b>Anita</b>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" style="float:right">
+                        <i class="fa fa-bars" style="color: #000;"></i>
+                    </button>
+                </div>
+                </div>
+                    
+                </div>
+                <div class="collapse navbar-collapse" id="navbarTop" introduction>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#header">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
                 </ul>
-            </div>
-
-        </div>
-    </div>
-    <!-- NAVBAR END  -->
-    <div id="header">
+                </div>
+            </nav>
+  
+        <div id="home">
         <div class="overlay">
-            <div class="container">
-                <div class="row scroll-me">
-                    <div class="col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-3 text-center">
+            <div class="col-12">
+                <div class="row no-gutters scroll-me ">
+                    <div class="col-12 col-sm-6 col-md-8 col-lg-6 offset-sm-3 offset-md-2 offset-lg-3 text-center">
 
                         <h1 data-scroll-reveal="enter from the bottom after 0.9s">
                             FRONT-END DEVELOPER
@@ -55,7 +63,9 @@
                             a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="#contact">here.</a>
 
                         </h4>
-                        <a data-scroll-reveal="enter from the bottom after 0.6s" href="https://github.com/anitahkimanzi" class="btn btn-danger set-bk-clr">View More Projects on github</a>
+                        <div class="arrow" data-scroll-reveal="enter from the bottom after 0.6s">
+                            <a data-scroll-reveal="enter from the bottom after 0.6s" href="#skills"><i class="down"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,49 +76,50 @@
     <!-- skills -->
     <div id="skills">
         <div class="overlay">
-            <div class="container">
-                <div class="row ">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-8 offset-sm-1 offset-md-2 offset-lg-2">
+                <div class="row no-gutters ">
                     <div class="col-md-12" data-scroll-reveal="enter from the bottom after 0.6s">
                         <section class="skill-bars">
 		
                             <div class="container">
-                                <div class="row text-center">
-                                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                                <div class="row no-gutters text-center">
+                                    <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 text-center">
                                         <h1>My skills</h1>
                                         	
                                     </div>
                                 </div>
                                 
-                                <div class="row">
+                                <div class="row no-gutters">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="skills-left skills">
-                                            <h3>Design</h3>
+                                            
                                             <ul class="skills-ul">
+                                                <li><h3>Design</h3></li>
                                                 <li>
                                                     <span>Web Design</span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-11"></div>
+                                                        <div class="skill-capacity col-11"></div>
                                                     </div>
                                                 </li>
                                                 
                                                 <li>
                                                     <span>illustrator</span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-9"></div>
+                                                        <div class="skill-capacity col-9"></div>
                                                     </div>
                                                 </li>
                                                 
                                                 <li>
                                                     <span>Branding &amp; Identity</span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-7"></div>
+                                                        <div class="skill-capacity col-7"></div>
                                                     </div>
                                                 </li>
                                                 
                                                 <li>
                                                     <span>InDesign</span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-6"></div>
+                                                        <div class="skill-capacity col-6"></div>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -117,33 +128,34 @@
                                     
                                     <div class="col-md-6 col-sm-12">
                                         <div class="skills-right skills">
-                                            <h3>Developing</h3>
+                                            
                                             <ul class="skills-ul">
+                                                <li><h3>Developing</h3></li>
                                                 <li>
                                                     <span>HTML5 &amp; CSS3</span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-11"></div>
+                                                        <div class="skill-capacity col-11"></div>
                                                     </div>
                                                 </li>
                                                 
                                                 <li>
                                                     <span>Javascript </span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-9"></div>
+                                                        <div class="skill-capacity col-9"></div>
                                                     </div>
                                                 </li>
                                                 
                                                 <li>
                                                     <span>ReactJs</span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-7"></div>
+                                                        <div class="skill-capacity col-7"></div>
                                                     </div>
                                                 </li>
                                                 
                                                 <li>
                                                     <span>pyhton</span>
                                                     <div class="skill-bar-holder">
-                                                        <div class="skill-capacity col-xs-6"></div>
+                                                        <div class="skill-capacity col-6"></div>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -160,393 +172,406 @@
 
     <!-- portfolio  -->
     <section id="portfolio">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 pad-bottom" data-scroll-reveal="enter from the bottom after 0.6s">
-                    <h2><strong>WORK PORFOLIO</strong></h2>
-                    <p>you can view the demos on github or live website by clicking on the image</p>
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-8 offset-sm-1 offset-md-2 offset-lg-2">
+                <div class="row no-gutters text-center">
+                    <div class="col-md-8 offset-md-2 pad-bottom" data-scroll-reveal="enter from the bottom after 0.6s">
+                        <h2><strong>WORK PORFOLIO</strong></h2>
+                        <p>you can view the demos on github or live website by clicking on the image</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row text-center">
-                <div class="col-md-12 pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
-                    <div class="caegories">
-                        <a href="#" data-filter="*" class="active btn btn-info btn-sm">All</a>
-                        <a href="#" data-filter=".graphic" class="btn btn-info btn-sm">GRAPHIC DESIGN</a>
-                        <a href="#" data-filter=".html" class="btn btn-info btn-sm">HTML</a>
-                        <a href="#" data-filter=".react" class="btn btn-info btn-sm">REACTJS</a>
-                        <a href="#" data-filter=".js" class="btn btn-info btn-sm">JAVASCRIPT</a>
+                <div class="row no-gutters text-center">
+                    <div class="col-md-12 pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
+                        <div class="caegories">
+                            <a href="#" data-filter="*" class="active btn btn-info btn-sm">All</a>
+                            <a href="#" data-filter=".graphic" class="btn btn-info btn-sm">GRAPHIC DESIGN</a>
+                            <a href="#" data-filter=".html" class="btn btn-info btn-sm">HTML</a>
+                            <a href="#" data-filter=".react" class="btn btn-info btn-sm">REACTJS</a>
+                            <a href="#" data-filter=".js" class="btn btn-info btn-sm">JAVASCRIPT</a>
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
 
 
-            <div class="row text-center" id="portfolio-div" >
-                <div class="col-md-12 js">
-                    <div class="row">
-                        <!-- js -->
-                    <div class="col-md-3 col-sm-4 ">
-                        <div class="work-wrapper">
-    
-                            <a class="fancybox-media" href="assets/img/portfolio/js1.png">
-                                <img src="assets/img/portfolio/js1.png" class="img-responsive " max-height="300px" alt="" />
-                                
-                            </a>
-                            <div class="img-overlay">
-                                    <div class="text">
-                                        <p>Love music! listen all your favourite right here</p>
+                <div class="row no-gutters text-center" id="portfolio-div" >
+                    <div class="col-12 js">
+                        <div class="row ">
+                            <!-- js -->
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3  js ">
+                                <div class="work-wrapper">
+            
+                                    <a class="fancybox-media" href="assets/img/portfolio/js1.png">
+                                        <img src="assets/img/portfolio/js1.png" class="img-responsive " max-height="300px" alt="" />
                                         
-                                            <a href="https://search-music.netlify.com/">Live Demo</a>
-                                        
-                                    </div>
+                                    </a>
+                                    <div class="img-overlay">
+                                            <div class="text">
+                                                <p>Love music! listen all your favourite right here</p>
+                                                
+                                                    <a href="https://search-music.netlify.com/">Live Demo</a>
+                                                
+                                            </div>
+                                        </div>
+                                    
                                 </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4">
-                        <div class="work-wrapper">
-                            <a class="fancybox-media"  href="assets/img/portfolio/j2.png">
-                                <img src="assets/img/portfolio/j2.png" class="img-responsive " alt="" />
-                                
-                            </a>
-                            <div class="img-overlay">
-                                    <div class="text">
-                                        <p>Javascript gallary</p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3  js">
+                                <div class="work-wrapper">
+                                    <a class="fancybox-media"  href="assets/img/portfolio/j2.png">
+                                        <img src="assets/img/portfolio/j2.png" class="img-responsive " alt="" />
                                         
-                                            <a href="https://jsphotogallary.netlify.com/">Live Demo</a>
-                                        
-                                    </div>
+                                    </a>
+                                    <div class="img-overlay">
+                                            <div class="text">
+                                                <p>Javascript gallary</p>
+                                                
+                                                    <a href="https://jsphotogallary.netlify.com/">Live Demo</a>
+                                                
+                                            </div>
+                                        </div>
+            
                                 </div>
-    
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                            <a class="fancybox-media"  href="assets/img/portfolio/j3.png">
-                                <img src="assets/img/portfolio/j3.png" class="img-responsive " alt="" />
-                                
-                            </a>
-                            <div class="img-overlay">
-                                    <div class="text">
-                                        <p>holidays countdown using jquery</p>
-                                        
-                                            <a href="https://popperjs.netlify.com/">Live Demo</a>
-                                        
-                                    </div>
-                                </div>
-    
-                    </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-4">
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3  js">
                             <div class="work-wrapper">
-                                <a class="fancybox-media"  href="assets/img/portfolio/js.png">
-                                    <img src="assets/img/portfolio/js.png" class="img-responsive " alt="" />
+                                    <a class="fancybox-media"  href="assets/img/portfolio/j3.png">
+                                        <img src="assets/img/portfolio/j3.png" class="img-responsive " alt="" />
+                                        
+                                    </a>
+                                    <div class="img-overlay">
+                                            <div class="text">
+                                                <p>holidays countdown using jquery</p>
+                                                
+                                                    <a href="https://popperjs.netlify.com/">Live Demo</a>
+                                                
+                                            </div>
+                                        </div>
+            
+                            </div>
+                            </div>
+        
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3  js">
+                                    <div class="work-wrapper">
+                                        <a class="fancybox-media"  href="assets/img/portfolio/js.png">
+                                            <img src="assets/img/portfolio/js.png" class="img-responsive " alt="" />
+        
+                                        </a>
+                                        <div class="img-overlay">
+                                                <div class="text">
+                                                    <p>Javascript carousel</p>
+                                                    
+                                                        <a href="https://carousel-js.netlify.com/">Live Demo</a>
+                                                    
+                                                </div>
+                                            </div>
+                
+                                    </div>
+                            </div>
+                            <!-- js end -->
+                        </div>
+                    </div>
+                            
+                    
 
+                    <!-- react start -->
+                    <div class="col-12 react">
+                            <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3   react">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/r1.png">
+                                <img src="assets/img/portfolio/r1.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <p>Fetching vedios from the api</p>
+                                        
+                                            <a href="https://youtube-vedios.netlify.com/">Live Demo</a>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  react">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/r2.png">
+                                <img src="assets/img/portfolio/r2.png" class="img-responsive" alt="" />
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <p>Calling apis to display data in html with ReactJs.</p>   
+                                        
+                                            <a href="https://api-call-react.netlify.com/">Live Demo</a>
+                                        
+                                    </div>
+                                </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  react">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/r4.png">
+
+                                <img src="assets/img/portfolio/r4.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <p>e-limu teachers dashboard</p>
+                                        <a href="#">View on Github</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  react">
+                            <div class="work-wrapper">
+                                <a class="fancybox-media"  href="assets/img/portfolio/router.png">
+                                    <img src="assets/img/portfolio/router.png" class="img-responsive " alt="" />
+                                    
                                 </a>
                                 <div class="img-overlay">
                                         <div class="text">
-                                            <p>Javascript carousel</p>
+                                            <p>React router sample</p>
                                             
-                                                <a href="https://carousel-js.netlify.com/">Live Demo</a>
+                                                <a href="https://routers.netlify.com/#/">Live Demo</a>
                                             
                                         </div>
                                     </div>
         
                             </div>
                     </div>
-                    <!-- js end -->
                     </div>
-                </div>
-
-                <!-- react start -->
-                <div class="col-md-12 react">
-                <div class="row">
-                <div class="col-md-3 col-sm-4 ">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/r1.png">
-                            <img src="assets/img/portfolio/r1.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>Fetching vedios from the api</p>
-                                    
-                                        <a href="https://youtube-vedios.netlify.com/">Live Demo</a>
-                                    
-                                </div>
-                            </div>
                     </div>
-                </div>
-               
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/r2.png">
-                            <img src="assets/img/portfolio/r2.png" class="img-responsive" alt="" />
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>Calling apis to display data in html with ReactJs.</p>   
-                                    
-                                        <a href="https://api-call-react.netlify.com/">Live Demo</a>
-                                    
-                                </div>
-                            </div>
+                
+                
+                    <!-- react -->
 
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/r4.png">
-
-                            <img src="assets/img/portfolio/r4.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>e-limu teachers dashboard</p>
-                                    <a href="#">View on Github</a>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4">
+                    <!-- html -->
+                    <div class="col-12 html">
+                            <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html ">
                         <div class="work-wrapper">
-                            <a class="fancybox-media"  href="assets/img/portfolio/router.png">
-                                <img src="assets/img/portfolio/router.png" class="img-responsive " alt="" />
+                            <a class="fancybox-media"  href="assets/img/portfolio/h10.png">
+                                <img src="assets/img/portfolio/h10.png" class="img-responsive " alt="" />
                                 
                             </a>
                             <div class="img-overlay">
                                     <div class="text">
-                                        <p>React router sample</p>
+                                        <p>bussiness dashboard</p>
                                         
-                                            <a href="https://routers.netlify.com/#/">Live Demo</a>
+                                            <a href="https://salesd.netlify.com">Live Demo</a>
                                         
                                     </div>
                                 </div>
-    
+
                         </div>
-                </div>
-                </div>
-                </div>
-            
-                <!-- react -->
-
-                <!-- html -->
-                <div class="col-md-12 html">
-                <div class="row">
-                <div class="col-md-3 col-sm-4 ">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/h10.png">
-                            <img src="assets/img/portfolio/h10.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>bussiness dashboard</p>
-                                    
-                                        <a href="https://salesd.netlify.com">Live Demo</a>
-                                    
-                                </div>
-                            </div>
-
                     </div>
-                </div>
 
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/h11.png">
-                            <img src="assets/img/portfolio/h11.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>Cleaning service website</p>
-                                    <a href="https://ngara.netlify.com/">LIVE DEMO</a>
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/h12.png">
-
-                            <img src="assets/img/portfolio/h12.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <P>Website builder company</P>
-                                    
-                                        <a href="https://cuda-site.netlify.com/">LIVE DEMO</a>
-                                    
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/h13.png">
-
-                            <img src="assets/img/portfolio/h13.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                        <p>bottom Sales website</p>
-                                    
-                                        <a href="https://digital-sales.netlify.com/">  LIVE DEMO</a>
-                                    
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/h5.png">
-
-                            <img src="assets/img/portfolio/h5.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>Know your country</p>
-                                    
-                                        <a  href="https://travelllers.netlify.com/ "> LIVE DEMO</a>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/h11.png">
+                                <img src="assets/img/portfolio/h11.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <p>Cleaning service website</p>
+                                        <a href="https://ngara.netlify.com/">LIVE DEMO</a>
                                     </div>
-                            </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/elimu.png">
-                            <img src="assets/img/portfolio/elimu.png" class="img-responsive " alt="" />
-                           
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>learning website for primary level</p>
-                                    
-                                        <a href="https://e-limu.netlify.com/">Live Demo</a>
-                                    
                                 </div>
-                            </div>
 
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/mookh.png">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/h12.png">
 
-                            <img src="assets/img/portfolio/mookh.png" class="img-responsive " alt="" />
+                                <img src="assets/img/portfolio/h12.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <P>Website builder company</P>
+                                        
+                                            <a href="https://cuda-site.netlify.com/">LIVE DEMO</a>
+                                        
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/h13.png">
+
+                                <img src="assets/img/portfolio/h13.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                            <p>bottom Sales website</p>
+                                        
+                                            <a href="https://digital-sales.netlify.com/">  LIVE DEMO</a>
+                                        
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-12 html">
+                            <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/h5.png">
+
+                                <img src="assets/img/portfolio/h5.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <p>Know your country</p>
+                                        
+                                            <a  href="https://travelllers.netlify.com/ "> LIVE DEMO</a>
+                                        </div>
+                                </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/elimu.png">
+                                <img src="assets/img/portfolio/elimu.png" class="img-responsive " alt="" />
                             
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    
-                                        <a href="https://mookh.netlify.com/">Live Demo</a>
-                                    
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <p>learning website for primary level</p>
+                                        
+                                            <a href="https://e-limu.netlify.com/">Live Demo</a>
+                                        
+                                    </div>
                                 </div>
-                            </div>
 
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/h8.png">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/mookh.png">
 
-                            <img src="assets/img/portfolio/h8.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text">
-                                    <p>Login page </p>
-                                    
-                                        <a href="https://login-cyan.netlify.com/">Live Demo</a>
-                                    
+                                <img src="assets/img/portfolio/mookh.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        
+                                            <a href="https://mookh.netlify.com/">Live Demo</a>
+                                        
+                                    </div>
                                 </div>
-                            </div>
 
+                        </div>
                     </div>
-                </div>
-                </div>
-                </div>
-                <!-- html end -->
 
-                <!-- graphic -->
-                <div class="col-md-12 graphic">
-                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  html">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/h8.png">
+
+                                <img src="assets/img/portfolio/h8.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text">
+                                        <p>Login page </p>
+                                        
+                                            <a href="https://login-cyan.netlify.com/">Live Demo</a>
+                                        
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- html end -->
+
+                    <!-- graphic -->
+                    <div class="col-12 graphic">
+                            <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3   graphic">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/g1.png">
+
+                                <img src="assets/img/portfolio/g1.png" class="img-responsive " alt="" />
+
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3   graphic">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/g10.png">
+
+                                <img src="assets/img/portfolio/g10.png" class="img-responsive " alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3   graphic">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/poster.png">
+
+                                <img src="assets/img/portfolio/poster.png" class="img-responsive "  alt="" />
+                                
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3  graphic">
+                        <div class="work-wrapper">
+                            <a class="fancybox-media"  href="assets/img/portfolio/kale2.png">
+
+                                <img src="assets/img/portfolio/kale2.png" class="img-responsive "  alt="" />
+                                
+                            </a>
+                            <div class="img-overlay">
+                                    <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
+                                </div>
+
+                        </div>
+                    </div>
+                    </div>
+                    </div>
                 
-                <div class="col-md-3 col-sm-4 ">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/g1.png">
-
-                            <img src="assets/img/portfolio/g1.png" class="img-responsive " alt="" />
-
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
-                            </div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 ">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/g10.png">
-
-                            <img src="assets/img/portfolio/g10.png" class="img-responsive " alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
-                            </div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 ">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/poster.png">
-
-                            <img src="assets/img/portfolio/poster.png" class="img-responsive " width="100%" alt="" />
-                            
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
-                            </div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media"  href="assets/img/portfolio/kale2.png">
-
-                            <img src="assets/img/portfolio/kale2.png" class="img-responsive " width="100%" alt="" />
-                            
-                        </a>
-                        <div class="img-overlay">
-                                <div class="text"><a href="https://github.com/anitahkimanzi/Graphic-design-projects">View on Github</a></div>
-                            </div>
-
-                    </div>
+                    <!-- graphic end -->
+                    
                 </div>
                 <br>
+                <div class="row no-gutters justify-content-center text-center">
+                        <div class="col-4 col-md-3 more">
+                            <a target="_blank" href="https://github.com/anitahkimanzi">VIEW MORE PROJECTS ON GITHUB</a>
+                        </div>
                 </div>
-                </div>
-                <!-- graphic end -->
-                                
             </div>
         </div>
     </section>
@@ -555,9 +580,9 @@
     <div id="contact">
         <div class="overlay">
             <div class="container">
-                <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.6s">
+                <div class="row no-gutters text-center" data-scroll-reveal="enter from the bottom after 0.6s">
 
-                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 contact">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-8 offset-sm-1 offset-md-2 offset-lg-2">
                             <h2 style="font-size: 6em;letter-spacing: -0.08em; font-family: 'Roboto', sans-serif;     font-weight: 100;">
                                 LET'S <strong>TALK</strong> 
                             </h2>
@@ -576,22 +601,56 @@
 
             </div>
         </div>
-    </div>
+        </div>
     <!-- contacts end -->
 
     <!-- footer -->
     <footer>
-        &copy 2018   | <a href="http://www.designbootstrap.com/" target="_blank"> Anita Kimanzi. All rights reserved.</a>
+        &copy 2018   | <a href="http://anita-kimanzi.netlify.com/" target="_blank"> Anita Kimanzi. All rights reserved.</a>
     </footer>
     <!--footer end  -->
     
-    <script src="assets/js/jquery-1.11.1.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/source/jquery.fancybox.js"></script>
-    <script src="assets/js/jquery.isotope.js"></script>
-    <script src="assets/js/scrollReveal.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script>
+        // Select all links with hashes
+            $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function(event) {
+                // On-page links
+                if (
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+                && 
+                location.hostname == this.hostname
+                ) {
+                // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                // Does a scroll target exist?
+                if (target.length) {
+                    // Only prevent default if animation is actually gonna happen
+                    event.preventDefault();
+                    $('html, body').animate({
+                    scrollTop: target.offset().top
+                    }, 1000, function() {
+                    // Callback after animation
+                    // Must change focus!
+                    var $target = $(target);
+                    $target.focus();
+                    if ($target.is(":focus")) { // Checking if the target was focused
+                        return false;
+                    } else {
+                        $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                        $target.focus(); // Set focus again
+                    };
+                    });
+                }
+                }
+            });
 
+    $(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+    </script>
 </body>
 </html>
