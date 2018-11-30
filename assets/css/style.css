@@ -63,7 +63,7 @@ padding:0px;
     color:#000;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(19, 18, 18, 0.5);
+    color: rgba(12, 11, 11);
 }
 
 .nav-link{
@@ -242,7 +242,7 @@ padding:0px;
 #portfolio img {
     filter: gray; /* FOR IE6-9 */
     -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-    opacity: 0.8;
+    opacity: 1;
 }
 /* FOR TRANSITION BEAUTIFULLY */
 .isotope .isotope-item {
