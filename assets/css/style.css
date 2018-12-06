@@ -136,10 +136,10 @@ padding:0px;
     }
     #home{
         margin-top: 75px;
-        min-height: 700px;
+        min-height: 500px;
     }
     #home .overlay {
-        min-height: 700px;
+        min-height: 500px;
         padding-top: 100px;
     }
 
