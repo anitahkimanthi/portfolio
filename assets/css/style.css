@@ -269,32 +269,22 @@ padding:0px;
  ============================================================ */
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
-.caegories a.active {
+.lists a.active {
     background: rgba(0,0,0,.7);
     background: rgba(85, 83, 83, 0.7);
 }
 #portfolio{
-    background-color: rgba(237, 237, 237, 1);
+    background-color: rgb(247, 243, 243);
     padding-bottom: 100px;
     padding-top: 100px;
 }
 
-#portfolio img {
-    filter: gray; /* FOR IE6-9 */
-    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-    opacity: 1;
-}
 /* FOR TRANSITION BEAUTIFULLY */
 .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
-.work-wrapper a img{
-    width: 100%;
-    /* height: 220px; */
-}
-
 .img-overlay {
     position: absolute;
     top: 0;
@@ -302,7 +292,6 @@ padding:0px;
     left: 0;
     right: 0;
     height: 100%;
-    /* width: 100%; */
     opacity: 0;
     transition: .5s ease;
     background: rgba(0,0,0,.7);
@@ -320,10 +309,9 @@ padding:0px;
     text-align: center;
   }
   
-  .work-wrapper:hover .img-overlay {
-    opacity: 0.8;
-    margin-right: 5px;
-    margin-left: 5px;
+  .work-wrapper .img-overlay:hover {
+    opacity: 10 ;
+    background-color: #17a2b8;
   }
   .img-overlay a{
       text-decoration: none;
@@ -356,7 +344,7 @@ padding:0px;
 }
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
-.caegories a.active {
+.lists a.active {
     background: rgba(117, 116, 116, 0.7);
     border: 2px solid #01a2a6;
 }
@@ -368,13 +356,6 @@ padding:0px;
     transition-duration: 0.8s;
 }
 
-img:hover {
-        filter: none; 
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-        opacity: 1;
-
-    }
-    
     .img-overlay .text a {
         cursor: pointer;
         border: 1px solid #fff !important;
@@ -407,10 +388,6 @@ img:hover {
     hr{
         border:1px solid rgb(141, 138, 138);
     }
-.fancybox-media img{
-    /* height:250px; */
-    margin-bottom: 1-px;
-}
 
 
 /* =============================================================
