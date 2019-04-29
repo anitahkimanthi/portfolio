@@ -62,11 +62,11 @@ padding:0px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    border: 1px solid #ffa500;
-    color:#ffa500;
+    border: 1px solid #96858f;
+    color:#96858f;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: #000;
+    color: #6D7993;
     margin-right: 25px;
 }
 
@@ -113,8 +113,8 @@ padding:0px;
     }
   }
   .navbar-dark .navbar-nav .nav-link:hover {
-    border: 1px solid #ffa500;
-    color:#ffa500;
+    border: 1px solid #96858f;
+    color:#96858f;
     padding: 5px;
     
 }
@@ -169,7 +169,9 @@ padding:0px;
 
 #home {
     padding: 0;
-    background-color: #01a2a6;
+    /* background-color: #01a2a6; */
+    background-color: #6D7993; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, #6D7993, #96858f); /* Standard syntax (must
     /* background-image: url('../img/bg.jpg'); */
     -webkit-background-size: cover;
     background-size: cover;
@@ -224,21 +226,13 @@ padding:0px;
   .skill-capacity {
     height: 20px;
     /* background-color: rgba(47, 192, 173, 0.8); */
-    background-color: #01a2a6;
+    background-color: #96858f;
     padding: 0px !important;
     left: 0px;
     position: absolute;
   }
   .skills-left {
     text-align: right;
-  }
-  .skills-left .skill-bar-holder {
-    background: rgba(47, 41, 51, 0.1);
-  }
-  .skills-left .skill-capacity {
-    /* background: #2f2933; */
-    left: auto;
-    right: 0px;
   }
   @media screen and (max-width: 990px) {
     .skills-left {
@@ -258,21 +252,22 @@ padding:0px;
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .categories a.active {
     /* background: rgba(0,0,0,.7); */
-    background: #ffa500 !important;
+    background: #9099a2 !important;
+    border: none !important;
     /* background: rgba(85, 83, 83, 0.7); */
 }
 .categories a:hover {
     /* background: rgba(0,0,0,.7); */
-    background: orange !important;
+    background: #9099a2 !important;
     /* background: rgba(85, 83, 83, 0.7); */
 }
 .btn-info {
     color: #fff;
-    background-color: #04696b !important;
+    background-color: #d5d5d5 !important;
 }
 #portfolio{
     /* background-color: rgb(247, 243, 243); */
-    background-color: #01a2a6;
+    background-color: #6D7993;
     color:#fff;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -297,8 +292,8 @@ padding:0px;
   }
   
   .text {
-    color: white;
-    font-size: 15px;
+    color: #6D7993;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -310,19 +305,27 @@ padding:0px;
   
   .work-wrapper .img-overlay:hover {
     opacity: 10 ;
-    background: #ffa500 !important;
+    background: #d5d5d5 !important;
   }
-  .img-overlay a{
+ .work-wrapper .img-overlay .text a{
       text-decoration: none;
-      color:#fff;
+      color:#6D7993;
+      width: 100%;
       font-weight: bolder;
   }
-  .img-overlay a button{
+  .work-wrapper .img-overlay a button{
     text-decoration: none;
-    color:#fff;
+    color:#6D7993;
     font-weight: bolder;
     text-transform: uppercase;
 }
+.work-wrapper .img-overlay .text a {
+        cursor: pointer;
+        border: 1px solid #96858f !important;
+        /* border: none; */
+        padding: 5px;
+
+    }
 .work-wrapper {
     margin: 5px 5px 20px 5px;
 }
@@ -333,14 +336,21 @@ padding:0px;
     padding: 10px;
 }
 .more:hover{
-    background: #ffa500 !important;
+    background: #d5d5d5 !important;
 }
 .more a{
     text-decoration: none;
     color:#fff;
     text-decoration: none;
 }
+.img-overlay .text a {
+        cursor: pointer;
+        border: 1px solid #fff !important;
+        /* border: none; */
+        color:#fff;
+        padding: 5px;
 
+    }
 
 /* FOR TRANSITION BEAUTIFULLY */
 .isotope .isotope-item {
@@ -369,7 +379,7 @@ padding:0px;
         padding:15px;
     }
     .social li a i{
-        font-size: 40px;
+        font-size: 30px;
         color:rgb(141, 138, 138);
        
     }
@@ -411,7 +421,7 @@ background-color: #222125;
 }
 
 footer a, footer a:hover {
-    color: #000;
+    color: #6D7993;
     text-decoration: none;
 }
 footer a{
