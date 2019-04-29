@@ -389,6 +389,7 @@ padding:0px;
 #contact{
     background-image: url('../img/f.png');
     background-repeat: no-repeat;
+    height:auto;
     background-size: cover;
     -moz-background-size: cover;
     background-attachment: fixed;
