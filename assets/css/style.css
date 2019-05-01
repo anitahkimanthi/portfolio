@@ -151,6 +151,9 @@ nav {
     #home h1 {
         font-size: 22px;
     }
+    .logo{
+        width:30%
+    }
 
 }
 
@@ -160,7 +163,10 @@ nav {
     }
 
     #home .overlay {
-        padding-top: 200px;
+        padding-top: 150px;
+    }
+    .logo{
+        width:10%
     }
 
     #home h4 {
@@ -185,6 +191,7 @@ nav {
     }
 
 }
+
 
 /* =============================================================
   home SECTION STYLES
@@ -215,7 +222,13 @@ nav {
     margin-top: 30px;
     background: none;
     color:#fff;
+    margin: 10px;
     padding: 10px 40px;
+}
+.projects:hover{
+    text-decoration: none; 
+    background: #fff;
+    color:#6d7993; 
 }
 
 /* =============================================================
