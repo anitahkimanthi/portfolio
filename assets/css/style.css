@@ -1,6 +1,7 @@
 ﻿body {
     font-family: 'Maven Pro', sans-serif;
     line-height: 25px;
+    clear: both;
 }
 
 .pad-bottom {
@@ -25,26 +26,12 @@
 /*==============================
 NAVBAR STYLES
 ==============================*/
-.navbar-default .navbar-brand,
-.navbar-default .navbar-brand:hover {
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-}
 
 .navbar-brand {
     padding: 0px;
 
 }
 
-.navbar-default.scrolled {
-    background: #fff;
-}
-
-nav {
-    margin-bottom: 50px;
-    background: #fff !important;
-}
 
 .btn {
     border: none !important;
@@ -52,7 +39,7 @@ nav {
 
 /* ADDED PADDING IN NAVBAR */
 .navbar {
-    padding: 15px;
+    border-bottom: 3px solid #d4d432 !important;
     background: #fff !important;
     -webkit-transition: background .8s ease-out, padding .8s ease-out;
     -moz-transition: background .8s ease-out, padding .8s ease-out;
@@ -60,51 +47,24 @@ nav {
 }
 
 /* CLASS FOR REMOVING PADDING IN NAVBAR*/
-.navbar-pad-original {
-    background-color: #a19d9d;
-}
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    border: 1px solid #96858f;
-    color: #96858f;
+    border: 1px solid #d4d432;
+    color: #d4d432;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #6D7993;
+    color: #000;
     margin-right: 25px;
 }
 
 .nav-link {
     padding: 5px;
 }
-.arrow{
-    margin-top: 100px;
-}
 
-.arrow i {
-    border: solid #fff;
-    margin-top: 12px;
-    border-width: 0 7px 7px 0;
-    display: inline-block;
-    padding: 10px;
-}
-
-
-
-.down {
-    transform: rotate(45deg);
-    color: #fff;
-    -webkit-transform: rotate(45deg);
-}
-
-.bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 1s infinite;
-}
 
 @keyframes bounce {
 
@@ -126,15 +86,20 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    border: 1px solid #96858f;
-    color: #96858f;
+    border: 1px solid #d4d432;
+    color: #d4d432;
     padding: 5px;
 
 }
-
+#home{
+    margin-top: 75px;
+}
 @media(max-width:768px) {
+    .logosection span{
+        display: none
+    }
     #contact h2 {
-        font-size: 3em;
+        font-size: 1em;
     }
 
     #home h1 {
@@ -145,7 +110,10 @@ nav {
     }
 
     #home {
-        margin-top: 60px;
+        margin-top: 70px;
+    }
+    #home .overlay{
+        padding-top: 50px
     }
 
     #home h1 {
@@ -154,29 +122,44 @@ nav {
     .logo{
         width:30%
     }
+    .projects{
+        border:1px solid #d4d432;
+        background: none;
+        color:#fff;
+        /* margin: 10px; */
+        text-align: center;
+        padding: 10px 0;
+    }
+    .or{
+        margin-top: 20px; 
+    }
+    .showcase img{
+        margin-top: 20px;
+    }
+    
 
 }
 
 @media(min-width:768px) {
+    .showcase img{
+        margin-top: 50px;
+    }
     #contact h2 {
-        font-size: 6em;
+        font-size:4em;
     }
+   
 
-    #home .overlay {
-        padding-top: 150px;
-    }
     .logo{
         width:10%
     }
-
+    .introduction{
+        margin-top: 100px;
+       
+    }
     #home h4 {
         margin-bottom: 100px;
     }
 
-    #contact .overlay {
-        height: 400px;
-        padding-top: 100px;
-    }
 
     #home h1 {
         line-height: 60px;
@@ -184,11 +167,18 @@ nav {
         padding-bottom: 20px;
         color: #fff;
     }
-
-    #home {
-        margin-top: 75px;
-        min-height: 600px;
+    .projects{
+        border:1px solid #d4d432;
+        margin-top: 30px;
+        background: none;
+        color:#fff;
+        text-align: center;
     }
+    
+    .or{
+        margin-top: 40px; 
+    }
+
 
 }
 
@@ -199,32 +189,25 @@ nav {
 
 #home {
     padding: 0;
-    /* background-color: #01a2a6; */
     background-color: #6D7993;
-    /* For browsers that do not support gradients */
     background-image: linear-gradient(90deg, #6D7993, #96858f);
-    /* Standard syntax (must
-    /* background-image: url('../img/bg.jpg'); */
-    -webkit-background-size: cover;
-    background-size: cover;
-    /* padding-bottom: 72px; */
-    -moz-background-size: cover;
-    background-attachment: fixed;
     color: #fff;
 }
+
 
 #home h4 {
     line-height: 30px;
     font-size: 16px;
 }
 .projects{
-    border:1px solid #ffff00;
-    margin-top: 30px;
+    border:1px solid #d4d432;
     background: none;
     color:#fff;
-    margin: 10px;
-    padding: 10px 40px;
+    /* margin: 10px; */
+    text-align: center;
+    padding: 10px 0;
 }
+
 .projects:hover{
     text-decoration: none; 
     background: #fff;
@@ -306,28 +289,37 @@ ul {
  ============================================================ */
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+.categories{
+    margin-top: 40px
+}
 .categories a.active {
-    /* background: rgba(0,0,0,.7); */
-    background: #ffff00 !important;
-    border: none !important;
-    color: #000 !important;
-    /* background: rgba(85, 83, 83, 0.7); */
+    background: #fff !important;
+    /* border-right: none !important; */
+    border-bottom: 3px solid #d4d432 !important;
+    color: #d4d432 !important;
 }
 
 .categories a:hover {
-    /* background: rgba(0,0,0,.7); */
-    background: #ffff00 !important;
-    color:#000
-    /* background: rgba(85, 83, 83, 0.7); */
+    background: #ffff !important;
+    color:#d4d432
 }
 
-.btn-info {
-    color: #000;
-    background-color: #fff !important;
+.btn-data:hover{
+    text-decoration: none;
+}
+.btn-data {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border:  2px solid #fff !important;
+    /* margin-right: 10px; */
+    background-color: none !important;
 }
 
 #portfolio {
-    /* background-color: rgb(247, 243, 243); */
     background-color: #6D7993;
     color: #fff;
     padding-bottom: 100px;
@@ -342,7 +334,7 @@ ul {
 }
 
 .text h4 {
-    color: #ffff00;
+    color: #d4d432;
 }
 
 .img-overlay {
@@ -387,7 +379,7 @@ ul {
 
 .work-wrapper .img-overlay .text a {
     cursor: pointer;
-    border: 1px solid #ffff00 !important;
+    border: 1px solid #d4d432 !important;
     padding:5px 15px;
 
 }
@@ -395,22 +387,20 @@ ul {
 .work-wrapper {
     margin: 5px 5px 20px 5px;
 }
-.more a{
-    text-decoration: none;
-    color:#fff;
-}
 
 .more{
     cursor: pointer;
-    border: 1px solid #fff !important;
+    border: 1px solid #fff!important ;
     padding: 10px;
-    color:#fff !important;
+    color:#fff;
 }
 
 .more:hover {
-    background: #ffff00 !important;
-    color: #6D7993 !important;
+    background: #fff !important;
+    border:1px solid #d4d432 !important;
+    color: #d4d432 !important;
 }
+
 
 .img-overlay .text a {
     cursor: pointer;
@@ -436,7 +426,6 @@ ul {
 }
 
 .contacts h2 {
-    color: #fff;
     font-size: 6em;
     letter-spacing: -0.08em;
     font-weight: 100;
@@ -451,12 +440,10 @@ ul {
 .social li a i {
     font-size: 30px;
     color: rgb(141, 138, 138);
-
 }
 
 .social li a {
     text-decoration: none;
-    color: rgb(141, 138, 138);
     color: #5e5564 !important;
 }
 
