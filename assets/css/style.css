@@ -1,14 +1,18 @@
 ﻿body {
-    font-family: 'Maven Pro', sans-serif;
+    font-family:  "Raleway", sans-serif;
     line-height: 25px;
     clear: both;
-    background-color: rgb(236, 235, 235);
+
+    color: #616060 !important;
 }
 
 .pad-bottom {
     padding-bottom: 60px;
 }
 
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Raleway';
+}
 
 .set-bk-clr {
     background-color: rgba(13, 109, 96, 0.8);
@@ -185,15 +189,48 @@ NAVBAR STYLES
 
 #home {
     padding: 0;
-    background-color: #6D7993;
-    background-image: linear-gradient(90deg, #6D7993, #96858f);
+    background-color: #000;
+    /* background-image: url('../img/laptop.JPG');  */
+    background-repeat: no-repeat;
     color: #fff;
+    padding-bottom: 100px;
 }
 
 
 #home h4 {
     line-height: 30px;
     font-size: 16px;
+}
+.icon {
+    font-size: 40px;
+    width:80px;
+    height:80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #616060;
+    color:#fff;
+    border-radius: 40px;
+    vertical-align: middle;
+    padding-top: 20px;
+    border:2px solid #616060;
+}
+.icon:hover{
+    color:#000;
+    background-color: #fff;
+}
+.descr{
+    padding: 40px;
+}
+.career h3{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.career{
+    background: #fff;
+    color:#616060;
+    text-align: center;
+    padding: 20px;
 }
 .projects{
     border:1px solid #c8ff00;
@@ -214,15 +251,15 @@ NAVBAR STYLES
   SKILLS SECTION STYLES
  ============================================================ */
 #skills {
-
     padding-bottom: 100px;
-    padding-top: 100px;
 }
 
 ul {
     list-style-type: none;
 }
-
+.skill-bars{
+    margin-top: 100px;
+}
 .skill-bars h3 {
     font-weight: normal;
     margin-bottom: 16px;
@@ -236,6 +273,7 @@ ul {
     display: inline-block;
     font-weight: 600;
     font-size: 14px;
+    float:left;
     margin-bottom: 4px;
 }
 
@@ -248,25 +286,25 @@ ul {
 }
 
 .skill-bar-holder {
-    height: 20px;
+    height: 30px;
     width: 100%;
+    margin-bottom: 30px;
+    margin-left: 100px;
     background: #d6d5d6 ;
-    ;
     padding: 0px;
     position: relative;
 }
 
 .skill-capacity {
-    height: 20px;
-    background-color: #6D7993;
+    height: 30px;
+    background-color: #616060;
     padding: 0px !important;
+    float:right;
     left: 0px;
     position: absolute;
 }
 
-.skills-left {
-    text-align: right;
-}
+
 
 @media screen and (max-width: 990px) {
     .skills-left {
@@ -290,6 +328,7 @@ ul {
 }
 .categories a.active {
     background: #fff !important;
+    border:none !important;
     /* border-right: none !important; */
     border-bottom: 3px solid #c8ff00 !important;
     color: #000 !important;
@@ -304,20 +343,20 @@ ul {
     text-decoration: none;
 }
 .btn-data {
-    color: #fff;
+    color: #000;
     margin-top: 10px;
     font-size: 18px;
     margin-right: 10px;
     text-decoration: none;
     padding: 10px 30px;
-    border:  2px solid #fff !important;
+    border:  2px solid #000 !important;
     /* margin-right: 10px; */
     background-color: none !important;
 }
 
 #portfolio {
-    background-color: #6D7993;
-    color: #fff;
+    background-color: #F7F8FA;
+    color: #000;
     padding-bottom: 100px;
     padding-top: 100px;
 }
@@ -346,7 +385,7 @@ ul {
 }
 
 .text {
-    color: #000;
+    color: #fff;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -359,18 +398,18 @@ ul {
 
 .work-wrapper .img-overlay:hover {
     opacity: 10;
-    background: #fff !important;
+    background: #000 !important;
 }
 
 .work-wrapper .img-overlay .text a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     width: 100%;
 }
 
 .work-wrapper .img-overlay .text a:hover {
-    border: 1px solid #000 !important;
-    color: #000;
+    border: 1px solid #fff !important;
+    color: #c8ff00;
 }
 
 .work-wrapper .img-overlay .text a {
@@ -386,9 +425,9 @@ ul {
 
 .more{
     cursor: pointer;
-    border: 1px solid #fff!important ;
+    border: 1px solid #000 !important ;
     padding: 10px;
-    color:#fff;
+    color:#000;
 }
 
 .more:hover {
@@ -447,14 +486,6 @@ ul {
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */
-#contact {
-    /* background-image: url('../img/f.png'); */
-    background-repeat: no-repeat;
-    height: auto;
-    background-size: cover;
-    -moz-background-size: cover;
-    background-attachment: fixed;
-}
 
 #contact .overlay {
     color: #616060;
@@ -465,19 +496,19 @@ FOOTER SECTION STYLES
 ============================================================ */
 footer {
     padding: 20px;
+    background-color: #000;
     font-size: 15px;
     text-align: center;
     font-weight: 900;
-    color: #e8e2ec;
-    background-color: #6D7993;
+    color: #808080;
 }
 
 footer a,
 footer a:hover {
-    color: #6D7993;
+    color: #000;
     text-decoration: none;
 }
 
 footer a {
-    color: #e8e2ec;
+    color: #808080;
 }
