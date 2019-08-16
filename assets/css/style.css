@@ -212,16 +212,11 @@ NAVBAR STYLES
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
-    background-color: #616060;
-    color:#fff;
+    color:#616060;
     border-radius: 40px;
     vertical-align: middle;
     padding-top: 20px;
     border:2px solid #616060;
-}
-.icon:hover{
-    color:#616060;
-    background-color: #fff;
 }
 .descr{
     padding: 40px;
