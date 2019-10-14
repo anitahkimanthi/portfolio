@@ -1,4 +1,6 @@
-﻿body {
+﻿
+
+body {
     font-family:  "Raleway", sans-serif;
     line-height: 25px;
     clear: both;
@@ -15,9 +17,6 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 
 
-/*==============================
-NAVBAR STYLES
-==============================*/
 
 
 .btn {
@@ -34,7 +33,6 @@ NAVBAR STYLES
 /* ADDED PADDING IN NAVBAR */
 .navbar {
     background: #fff !important;
-    padding: 15px;
     box-sizing: border-box !important;
     border-bottom: 3px solid #c8ff00 !important;
     -webkit-transition: background .8s ease-out, padding .8s ease-out;
@@ -73,6 +71,8 @@ NAVBAR STYLES
     
 }
 @media(max-width:768px) {
+    .navbar{
+        padding: 15px 0;}
     .logosection span{
         display: none
     }
@@ -117,6 +117,8 @@ NAVBAR STYLES
 }
 
 @media(min-width:768px) {
+    .navbar{
+        padding: 15px;}
     .showcase img{
         margin-top: 50px;
     }
