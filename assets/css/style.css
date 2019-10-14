@@ -299,16 +299,18 @@ ul {
     margin-top: 40px
 }
 .categories a.active {
-    background: #fff !important;
+    background: #c8ff00 !important;
     border:none !important;
     /* border-right: none !important; */
-    border-bottom: 3px solid #c8ff00 !important;
-    color: #000 !important;
+    border-bottom: 3px solid #ffffff !important;
+    color: #ffffff !important;
+    font-weight: bolder;
 }
 
 .categories a:hover {
-    background: #ffff !important;
-    color:#000;
+    background: #c8ff00 !important;
+    color:#ffffff;
+    border:none !important;
 }
 
 .btn-data:hover{
