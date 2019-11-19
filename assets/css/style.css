@@ -319,7 +319,7 @@ ul {
 }
 
 #portfolio {
-    background-color: #F7F8FA;
+    background-color: rgb(225, 227, 230);
     border-bottom: 1px solid #c8ff00 !important;
     border-top: 1px solid #c8ff00 !important;
     color: #000;
