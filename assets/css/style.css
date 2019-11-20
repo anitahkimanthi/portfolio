@@ -108,6 +108,11 @@ h1,h2,h3,h4,h5,h6,p,a{
     
 
 }
+@media(min-width:1360px){
+h1{
+    font: 30px;
+}
+}
 
 @media(min-width:768px) {
     .navbar{
