@@ -83,6 +83,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     /* position: fixed; */
 }
 
@@ -223,8 +224,10 @@ h1{
  ============================================================ */
 #skills {
     padding-bottom: 80px;
-    /* background-image:url(../img/portfolio/skills2.jpg); */
-    background-color: #6d7993;
+    background-image:url(../img/portfolio/contact3.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
     color:#fff;
 }
 
@@ -304,7 +307,6 @@ ul {
 .categories a.active {
     background: #c8ff00 !important;
     border:none !important;
-    /* border-right: none !important; */
     border-bottom: 3px solid #ffffff !important;
     color: #ffffff !important;
     font-weight: bolder;
@@ -333,8 +335,6 @@ ul {
 
 #portfolio {
     background-color: #fff;
-    border-bottom: 1px solid #c8ff00 !important;
-    border-top: 1px solid #c8ff00 !important;
     color: #000;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -470,8 +470,18 @@ ul {
   CONTACT SECTION STYLES
  ============================================================ */
 
+ #contact{
+    background-image:url(../img/portfolio/contact1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+ }
 #contact .overlay {
     color: #e0dede;
+    background: rgb(110, 121, 148);
+    background: rgb(110, 121, 148, 0.8);
+    
+    /* background-image:url(../img/portfolio/contact1.jpg); */
 }
 
 /* =============================================================
@@ -479,12 +489,12 @@ FOOTER SECTION STYLES
 ============================================================ */
 footer {
     padding: 20px;
-    /* background-color: #6E7994; */
-    border-top: 1px solid #c8ff00 !important;
+    background-color: rgb(79, 85, 100);
+    /* border-top: 1px solid #c8ff00 !important; */
     font-size: 15px;
     text-align: center;
     font-weight: 900;
-    color: #808080;
+    color: #fff;
 }
 
 footer a,
@@ -494,6 +504,6 @@ footer a:hover {
 }
 
 footer a {
-    color: #808080;
+    color: #fff;
     
 }
