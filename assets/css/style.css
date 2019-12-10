@@ -156,7 +156,7 @@ h1{
 
 #home {
     padding: 0;
-    background-color: #000;
+    background-color: #6E7994;
     /* background-image: url('../img/laptop.JPG');  */
     background-repeat: no-repeat;
     color: #fff;
@@ -462,7 +462,7 @@ FOOTER SECTION STYLES
 ============================================================ */
 footer {
     padding: 20px;
-    background-color: #000;
+    background-color: #6E7994;
     border-top: 1px solid #c8ff00 !important;
     font-size: 15px;
     text-align: center;
