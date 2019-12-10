@@ -23,8 +23,9 @@ h1,h2,h3,h4,h5,h6,p,a{
 
 
 .navbar-nav {
-    padding-left: 30px !important;
+    padding-left: 20px !important;
 }
+
 
 .btn {
     border: none !important;
@@ -82,8 +83,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    height: 55%
-    /* position: fixed; */
+    height: 60%
 }
 
 
@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     }
 
     #home {
-        margin-top: 65px;
+        margin-top: 60px;
     }
     #home .overlay{
         padding-top: 50px
@@ -220,7 +220,7 @@ h1{
   SKILLS SECTION STYLES
  ============================================================ */
 #skills {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     background-image:url(../img/portfolio/contact3.jpg);
     background-size: cover;
     background-repeat:no-repeat;
@@ -299,7 +299,7 @@ ul {
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .categories{
-    margin-top: 40px
+    margin-top: 30px
 }
 .categories a.active {
     background: #c8ff00 !important;
@@ -326,7 +326,6 @@ ul {
     text-decoration: none;
     padding: 10px 30px;
     border:  2px solid #000 !important;
-    /* margin-right: 10px; */
     background-color: none !important;
 }
 
