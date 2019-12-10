@@ -74,7 +74,19 @@ h1,h2,h3,h4,h5,h6,p,a{
 #home{
     margin-top: 65px;
     
+    
 }
+.home{
+    background-image:url(../img/portfolio/skills4.png);
+    width: 100%;
+    height: 60%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+}
+
+
 @media(max-width:768px) {
     .navbar{
         padding: 15px 0;}
@@ -104,6 +116,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 
     .linkbuttons{
         margin-bottom: 20px;
+        
     }
     
 
@@ -124,6 +137,7 @@ h1{
    
     .introduction{
         margin-top: 100px;
+        margin-bottom: 100px;
        
     }
 
@@ -155,10 +169,6 @@ h1{
  ============================================================ */
 
 #home {
-    padding: 0;
-    background-color: #6E7994;
-    /* background-image: url('../img/laptop.JPG');  */
-    background-repeat: no-repeat;
     color: #fff;
 }
 
@@ -212,7 +222,10 @@ h1{
   SKILLS SECTION STYLES
  ============================================================ */
 #skills {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
+    /* background-image:url(../img/portfolio/skills2.jpg); */
+    background-color: #6d7993;
+    color:#fff;
 }
 
 ul {
@@ -252,14 +265,14 @@ ul {
     height: 25px;
     margin-bottom: 30px;
     margin-left: 160px;
-    background: #d6d5d6;
+    background: #fff;
     padding: 0px;
     position: relative;
 }
 
 .skill-capacity {
     height: 25px;
-    background-color: #616060;
+    background-color: #C7DA32;
     padding: 0px !important;
     float:right;
     left: 0px;
@@ -319,7 +332,7 @@ ul {
 }
 
 #portfolio {
-    background-color: rgb(225, 227, 230);
+    background-color: #fff;
     border-bottom: 1px solid #c8ff00 !important;
     border-top: 1px solid #c8ff00 !important;
     color: #000;
@@ -425,6 +438,10 @@ ul {
     padding: 5px;
 
 }
+#contact{
+    background-color: #6E7994;
+    /* color: #ffffff */
+}
 
 .contacts h2 {
     font-size: 6em;
@@ -440,7 +457,7 @@ ul {
 
 .social li a i {
     font-size: 30px;
-    color: rgb(141, 138, 138);
+    color: #e0dede;
 }
 
 .social li a {
@@ -454,7 +471,7 @@ ul {
  ============================================================ */
 
 #contact .overlay {
-    color: #616060;
+    color: #e0dede;
 }
 
 /* =============================================================
@@ -462,7 +479,7 @@ FOOTER SECTION STYLES
 ============================================================ */
 footer {
     padding: 20px;
-    background-color: #6E7994;
+    /* background-color: #6E7994; */
     border-top: 1px solid #c8ff00 !important;
     font-size: 15px;
     text-align: center;
