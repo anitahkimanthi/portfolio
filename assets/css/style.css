@@ -22,7 +22,9 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 
 
-
+.navbar-nav {
+    padding-left: 30px !important;
+}
 
 .btn {
     border: none !important;
@@ -78,11 +80,8 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 .home{
     background-image:url(../img/portfolio/skills4.png);
-    width: 100%;
-    height: 60%; 
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat:no-repeat;
     background-attachment: fixed;
     /* position: fixed; */
 }
