@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     }
 
     #home h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .linkbuttons{
@@ -200,7 +200,6 @@ h1{
     background: #fff;
     color:#616060;
     text-align: center;
-    margin-top:50px;
 }
 .projects{
     border:1px solid #c8ff00;
