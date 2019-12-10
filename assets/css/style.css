@@ -187,7 +187,7 @@ h1{
 
 #home h4 {
     line-height: 30px;
-    font-size: 16px;
+    font-size: 20px;
 }
 .icon {
     font-size: 40px;
@@ -260,8 +260,8 @@ ul {
 
 .skills-ul span {
     display: inline-block;
-    font-weight: 600;
-    font-size: 18px;
+    /* font-weight: 600; */
+    /* font-size: 18px; */
     float:left;
     margin-bottom: 4px;
 }
