@@ -84,10 +84,17 @@ h1,h2,h3,h4,h5,h6,p,a{
     
 }
 .home{
-    background-image:url(../img/portfolio/skills4.png);
+    background-image:url(../img/portfolio/skills4.png) ;
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
+    background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%; 
+overflow: hidden;
     height: 60%
 }
 
