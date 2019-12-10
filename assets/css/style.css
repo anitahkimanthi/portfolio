@@ -79,9 +79,16 @@ h1,h2,h3,h4,h5,h6,p,a{
 
 }
 #home{
-    margin-top:40px;
+    margin-top:60px;
     
     
+}
+.introduction h3{
+    font-size: 1.7rem;
+}
+.introduction{
+    margin-top: 100px;
+    margin-bottom: 100px
 }
 .home{
     background-image:url(../img/portfolio/skills4.png) ;
@@ -92,11 +99,12 @@ h1,h2,h3,h4,h5,h6,p,a{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* height: 100%;  */
     overflow: hidden;
-    height: 60%
 }
 
+h3{
+    font-weight: 600;
+}
 @media (max-width:600px){
     .logosection img{
         display:none;
