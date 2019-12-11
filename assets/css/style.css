@@ -204,11 +204,10 @@ h1{
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
-    color:#616060;
+    color:#C7DA32;
     border-radius: 40px;
-    vertical-align: middle;
     padding-top: 20px;
-    border:2px solid #616060;
+    border:2px solid #C7DA32;
 }
 .descr{
     padding: 20px 40px;;
@@ -247,6 +246,12 @@ h1{
     background-repeat:no-repeat;
     background-attachment: fixed;
     color:#fff;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
 }
 
 ul {
