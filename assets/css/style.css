@@ -27,11 +27,6 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 
 
-.navbar-nav {
-    padding-left: 20px !important;
-}
-
-
 .btn {
     border: none !important;
 }
@@ -58,8 +53,8 @@ h1,h2,h3,h4,h5,h6,p,a{
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    border: 1px solid #000;
-    color: #000;
+    border-bottom: 2px solid #C7DA32;
+    color: #6E7A94;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -100,6 +95,7 @@ h1,h2,h3,h4,h5,h6,p,a{
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+    
 }
 
 h3{
@@ -127,7 +123,7 @@ h3{
     }
 
     #home {
-        margin-top: 60px;
+        margin-top: 55px;
     }
 
     #home h1 {
@@ -169,7 +165,7 @@ h1{
         color: #fff;
     }
     .projects{
-        border:1px solid #c2d384;
+        border:1px solid #C7DA32;
         margin-top: 30px;
         background: none;
         color:#fff;
@@ -222,7 +218,7 @@ h1{
     text-align: center;
 }
 .projects{
-    border:1px solid #c8ff00;
+    border:1px solid #C7DA32;
     background: none;
     color:#fff;
     /* margin: 10px; */
@@ -328,7 +324,7 @@ ul {
     margin-top: 30px
 }
 .categories a.active {
-    background: #c8ff00 !important;
+    background: #C7DA32 !important;
     border:none !important;
     border-bottom: 3px solid #ffffff !important;
     color: #ffffff !important;
@@ -336,7 +332,7 @@ ul {
 }
 
 .categories a:hover {
-    background: #c8ff00 !important;
+    background: #C7DA32 !important;
     color:#ffffff;
     border:none !important;
 }
@@ -370,7 +366,7 @@ ul {
 }
 
 .text h4 {
-    color: #c8ff00;
+    color: #C7DA32;
 }
 
 .img-overlay {
@@ -410,12 +406,12 @@ ul {
 
 .work-wrapper .img-overlay .text a:hover {
     border: 1px solid #fff !important;
-    color: #c8ff00;
+    color: #C7DA32;
 }
 
 .work-wrapper .img-overlay .text a {
     cursor: pointer;
-    border: 1px solid #c8ff00 !important;
+    border: 1px solid #C7DA32 !important;
     padding:5px 15px;
 
 }
@@ -433,7 +429,7 @@ ul {
 
 .more:hover {
     background: #fff !important;
-    border:1px solid #c8ff00 !important;
+    border:1px solid #C7DA32 !important;
     color: #000 !important;
 }
 
