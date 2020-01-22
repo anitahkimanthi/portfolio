@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 
 .logosection a{
-    color: #6d7993;
+    color: #90A086;
 }
 
 /* ADDED PADDING IN NAVBAR */
@@ -92,7 +92,8 @@ h1,h2,h3,h4,h5,h6,p,a{
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-    color:#fff
+    color:#fff;
+    padding: 20px 0  90px;
     
 }
 
@@ -231,6 +232,7 @@ h1{
 .career h3{
     font-weight: 600;
     margin-bottom: 25px;
+    color: #71180c;
 }
 .career{
     background: #fff;
@@ -329,6 +331,12 @@ ul {
  ============================================================ */
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+#portfolio h3{
+    color: #71180c;
+}
+#portfolio a{
+    color: #71180c;
+}
 .categories{
     margin-top: 30px
 }
@@ -356,7 +364,7 @@ ul {
     margin-right: 10px;
     text-decoration: none;
     padding: 10px 30px;
-    border:  2px solid #000 !important;
+    border:  2px solid #90A086 !important;
     background-color: none !important;
 }
 
